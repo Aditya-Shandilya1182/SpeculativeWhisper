@@ -58,4 +58,4 @@ Speculative Whisper is evaluated with **beam search enabled** and **top-p = 0.9*
 | Min latency          | 1.0581 s                   | 1.9662 s            |
 | Max latency          | 2.5962 s                   | 5.6525 s            |
 | Total time           | 9.24 s                     | 16.43 s             |
-| WER                  | 0.1237                     | 0.1237              |
+| WER                  | 0.1237                     | 0.1340              |
