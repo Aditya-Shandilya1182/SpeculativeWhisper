@@ -54,8 +54,8 @@ Speculative Whisper is evaluated with **beam search enabled** and **top-p = 0.9*
 
 | Metric               | Vanilla Whisper (Large-V3) | Speculative Whisper |
 |----------------------|----------------------------|---------------------|
-| Avg latency / sample | 1.8475 s                   | 3.2864 s            |
-| Min latency          | 1.0581 s                   | 1.9662 s            |
-| Max latency          | 2.5962 s                   | 5.6525 s            |
-| Total time           | 9.24 s                     | 16.43 s             |
+| Avg latency / sample | 1.8475 s                   | 2.6641 s            |
+| Min latency          | 1.0581 s                   | 1.4376 s            |
+| Max latency          | 2.5962 s                   | 5.0356 s            |
+| Total time           | 9.24 s                     | 13.32 s             |
 | WER                  | 0.1237                     | 0.1340              |
