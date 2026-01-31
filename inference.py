@@ -61,8 +61,9 @@ print(f"Total time: {sum(spec_times):.2f}s")
 print(f"WER: {spec_wer:.4f}")
 
 del sw
-torch.cuda.empty_cache()
-torch.cuda.synchronize()
+if torch.cuda.is_available():
+    torch.cuda.empty_cache()
+    torch.cuda.synchronize()
 
 device = "cuda" if torch.cuda.is_available() else "cpu"
 vanilla_model = whisper.load_model("large-v3").to(device)
