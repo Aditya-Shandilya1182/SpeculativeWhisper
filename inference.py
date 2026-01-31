@@ -3,8 +3,8 @@ from dataclasses import dataclass
 import torch
 import whisper
 from jiwer import wer
-from src.speculative_decoding import SpeculativeWhisper
-from src.utils import load_references, clean_whisper_output
+from speculative_whisper.speculative_decoding import SpeculativeWhisper
+from speculative_whisper.utils import load_references, clean_whisper_output
 
 
 
